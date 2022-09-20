@@ -3,6 +3,12 @@ body {
     scroll-behavior: smooth;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-size {
     width: 200px;
     height: 200px;
@@ -25,4 +31,11 @@ body {
 .img-size>h3 {
     top: 60%;
     position: relative;
+}
+
+.second-side {
+    height: 200vh;
+    width: 100%;
+    background-color: black;
+    display: none;
 }
