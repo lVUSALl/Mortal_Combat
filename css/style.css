@@ -1,0 +1,28 @@
+body {
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+.img-size {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid white;
+    margin-bottom: 45px;
+    margin-left: 90px;
+}
+
+.img-size>img {
+    object-fit: cover;
+    scale: 0.4;
+    position: absolute;
+}
+
+.img-size>h3 {
+    top: 60%;
+    position: relative;
+}
