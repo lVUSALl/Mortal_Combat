@@ -1,6 +1,7 @@
 body {
     user-select: none;
     scroll-behavior: smooth;
+    background-size: cover;
 }
 
 section {
@@ -36,6 +37,22 @@ section {
 .second-side {
     height: 200vh;
     width: 100%;
-    background-color: black;
     display: none;
+}
+
+#main-img {
+    height: 100vh;
+    width: 100%;
+    z-index: 12;
+}
+
+#main-image {
+    object-fit: cover;
+}
+
+.Fighters {
+    position: relative;
+    bottom: 400px;
+    left: 750px;
+    display: flex;
 }
